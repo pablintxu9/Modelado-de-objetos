@@ -1,7 +1,7 @@
 from clases.figuras import Figura
 
 class Rectangulo(Figura):
-    def __init__(self, ancho, alto, color='naranja'):
+    def __init__(self, ancho, alto, color):
         super().__init__()
         self.ancho = ancho
         self.alto = alto

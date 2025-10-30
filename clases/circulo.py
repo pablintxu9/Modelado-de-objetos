@@ -1,7 +1,7 @@
 from clases.figuras import Figura
 
 class Circulo(Figura):
-    def __init__(self, radio, color='negro'):
+    def __init__(self, radio, color):
         super().__init__()
         self.radio = radio
         self.color = color
