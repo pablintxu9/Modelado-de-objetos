@@ -1,6 +1,7 @@
-from figuras import Figura
+from clases.figuras import Figura
+
 class Elipse(Figura):
-    def __init__(self, eje_mayor, eje_menor, color):
+    def __init__(self, eje_mayor, eje_menor, color='amarillo'):
         super().__init__()
         self.eje_mayor = eje_mayor
         self.eje_menor = eje_menor
