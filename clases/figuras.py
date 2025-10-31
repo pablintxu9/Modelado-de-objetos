@@ -4,3 +4,4 @@ class Figura:
 
     def __str__(self):
         return f'Figura con {len(self.figuras)} figuras.'
+    
