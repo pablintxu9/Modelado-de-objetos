@@ -15,8 +15,3 @@ def main():
 	print(r)
 	print(q)
 	print(e)
-
-
-if __name__ == '__main__':
-	main()
-
