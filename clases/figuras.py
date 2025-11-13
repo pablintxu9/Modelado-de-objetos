@@ -3,5 +3,5 @@ class Figura:
         self.figuras = []
 
     def __str__(self):
-        return f'Figura con {len(self.figuras)} figuras.'
+        return f'figura de color{self.color}'
     

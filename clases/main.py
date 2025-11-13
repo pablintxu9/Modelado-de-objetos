@@ -5,10 +5,10 @@ from clases.elipse import Elipse
 
 
 if __name__ == "__main__":
-	c = Circulo(1,"negro")         
-	r = Rectangulo(3, 1, "naranja")    
-	q = Cuadrado(1.5, "azul")        
-	e = Elipse(1, 3, "amarillo")    
+	c = Circulo("negro",1)         
+	r = Rectangulo ("naranja",3, 1)    
+	q = Cuadrado("azul", 1.5)        
+	e = Elipse( "amarillo", 1, 3)    
 
 	print(c)
 	print(r)
