@@ -1,13 +1,13 @@
-from familia.kate import kate
-from familia.guillermo import guillermo
-from familia.persona import persona
-class familia:
-    def __init__(self):
-        self.personas = []
+from kate import kate
+from guillermo import guillermo
+from carlos import carlos
+from diana import diana
 
-    def agregar_persona(self, persona):
-        self.personas.append(persona)
+# Relaciones
+kate.casar_con(guillermo)
+carlos.casar_con(diana)
+guillermo.agregar_padres(carlos, diana)
 
-    def __str__(self):
-        return f"Familia con {len(self.personas)} personas: " + ", ".join(str(p) for p in self.personas)
-    
+# Mostrar toda la información
+for persona in [kate, guillermo, carlos, diana]:
+    persona.mostrar_info()

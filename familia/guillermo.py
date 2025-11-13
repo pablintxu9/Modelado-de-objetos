@@ -1,8 +1,3 @@
-from familia.persona import persona
-class guillermo(persona):
-    def __init__(self, nombre, edad):
-        self.nombre = nombre
-        self.edad = edad
+from persona import Persona
 
-    def __str__(self):
-        return f"Guillermo: {self.nombre}, Edad: {self.edad}"
+guillermo = Persona("Guillermo", "Windsor", "Hombre")
